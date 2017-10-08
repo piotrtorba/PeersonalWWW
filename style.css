@@ -264,6 +264,12 @@ footer p {
 		width: 100%;
 		margin-bottom: 0px;
 	}
+	.social {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.contact {
 		width: 100%;
 		margin: 0px 0px;
