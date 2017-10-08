@@ -91,12 +91,18 @@ nav li:active {
 figure {
 	margin: 0 auto;
 	text-align: center;
-	width: 80%;
+	width: 60%;
 }
 figure img {
+	width: 250px;
+	height: 200px;
 	padding: 15px 15px;
 	display: inline-block;
 	border-radius: 5px;
+}
+figure img:hover {
+	transform: scale(1.5, 1.5);
+	cursor: pointer;
 }
 /*Professional Section*/
 .professional {
